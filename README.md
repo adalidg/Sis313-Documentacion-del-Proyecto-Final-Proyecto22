@@ -44,7 +44,8 @@
 
 ### 4.1. Diseño Esquemático
 
-> ![Arquitectura de la red](infraestructura.png) 
+> ![Arquitectura de la red](infraestructura.png)
+
 | VM/Host | Rol | IP Física | Red Lógica (VLAN) | SO |
 | :--- | :--- | :--- | :--- | :--- |
 | **VM 195** | Escudo Perimetral (HAProxy) | 192.168.100.195 | VLAN Perimetral | Ubuntu 24.04 Server |
