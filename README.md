@@ -44,9 +44,7 @@
 
 ### 4.1. Diseño Esquemático
 
-Incluye un diagrama de la topología final. Muestra claramente la segmentación de red, las IPs utilizadas, y los flujos de tráfico.
-
-> 
+> ![Arquitectura de la red](infraestructura.png) 
 | VM/Host | Rol | IP Física | Red Lógica (VLAN) | SO |
 | :--- | :--- | :--- | :--- | :--- |
 | **VM 195** | Escudo Perimetral (HAProxy) | 192.168.100.195 | VLAN Perimetral | Ubuntu 24.04 Server |
